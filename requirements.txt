@@ -7,7 +7,7 @@ plotly==6.2.0
 matplotlib==3.10.1
 seaborn==0.13.2
 
-numerical_methods @ file:///${PWD}/dist/ numerical_methods-0.1-cp313-cp313-linux_x86_64.whl
+numerical_methods @ file:///${PWD}/dist/numerical_methods-0.1-cp313-cp313-linux_x86_64.whl
 # Streamlit web framework
 streamlit==1.46.1
 
