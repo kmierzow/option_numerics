@@ -1,0 +1,6 @@
+numerical_methods.cpp
+setup.py
+numerical_methods.egg-info/PKG-INFO
+numerical_methods.egg-info/SOURCES.txt
+numerical_methods.egg-info/dependency_links.txt
+numerical_methods.egg-info/top_level.txt
