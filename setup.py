@@ -3,8 +3,8 @@ import pybind11
 from setuptools import setup, Extension
 from setuptools.command.build_ext import build_ext
 
-os.environ["CC"] = "/opt/homebrew/bin/g++-15"
-os.environ["CXX"] = "/opt/homebrew/bin/g++-15"
+os.environ["CC"] = "/opt/homebrew/bin/g++-9"
+os.environ["CXX"] = "/opt/homebrew/bin/g++-9"
 
 extra_compile_args = [
     "-O3",
