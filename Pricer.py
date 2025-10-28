@@ -1,10 +1,21 @@
-import setup
+import subprocess
+import os
+import sys
 import streamlit as st
 import numerical_methods
 import numpy as np
 import plotly.graph_objects as go
 import seaborn as sns
 import matplotlib.pyplot as plt
+
+
+module_dir = os.path.abspath(os.path.dirname(__file__))
+setup_path = os.path.join(module_dir, "setup.py")
+
+# Run only once (optional check)
+if not os.path.exists(os.path.join(module_dir, "my_module.egg-info")):
+    st.write("Running setup.py...")
+    subprocess.run([sys.executable, setup_path, "install"], check=True)
 
 st.title("Heatmap of option prices")
 

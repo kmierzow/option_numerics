@@ -8,3 +8,6 @@ pybind11
 seaborn
 yfinance
 setuptools
+subprocess
+os
+sys
