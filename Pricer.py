@@ -1,3 +1,4 @@
+import setup
 import streamlit as st
 import numerical_methods
 import numpy as np
