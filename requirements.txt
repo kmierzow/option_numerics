@@ -1,0 +1,18 @@
+numpy==2.2.6
+scipy==1.15.1
+pandas==2.2.3
+
+# Visualization
+plotly==6.2.0
+matplotlib==3.10.1
+seaborn==0.13.2
+
+numerical_methods @ file:///${PWD}/dist/numerical_methods-0.1-cp313-cp313-linux_x86_64.whl
+# Streamlit web framework
+streamlit==1.46.1
+
+# Financial data
+yfinance==0.2.64
+
+# Build tools (for compiling C++ extension)
+setuptools==75.8.0
